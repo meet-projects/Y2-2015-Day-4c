@@ -1,14 +1,12 @@
 MEET Friends Lab 2: Building the Flask backend for viewing friends
 ------------------------------------------------------------------
 
-Start by downloading the following, which will create a folder `y2-meet-friends-lab2` on your desktop:
+Start by downloading the following, which will create a folder `y2-meet-friends` on your desktop:
 
 ```
 cd ~/Desktop
-git clone https://github.com/meet-projects/y2-meet-friends-lab2.git
+git clone https://github.com/meet-projects/y2-meet-friends.git
 ```
-
-Inside folder `y2-meet-friends-lab2`, create another folder called `templates`, and move the four HTML files from your completed [MEET Friends Lab 1](https://github.com/meet-projects/y2-meet-friends-lab1) into `templates`.
 
 If you have not set up Python using the commands below, please do so now:
 
