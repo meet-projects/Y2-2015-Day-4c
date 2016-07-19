@@ -39,4 +39,4 @@ Now open your browser and go to `http://127.0.0.1:5000/` (this is the default UR
 
 We've already imported the relevant portions of SQLAlchemy for you into the Python file `web_app.py`.
 
-In the function `view_my_friends()`, change the first line so that it actually reads all the people from the database into the variable `friends`. After completing this exercise, when you go to `http://127.0.0.1:5000/` in your web browser, you should see a list of all the people you added to the database in the SQLAlchemy lab.
+In the function `view_my_friends()`, change the first line so that it actually reads all the people from the database into the variable `friends`. After completing this exercise, when you go to `http://127.0.0.1:5000/` in your web browser, you should see a list of all the people you added to the database in [Database Lab 2](https://github.com/meet-projects/y2-db-lab2).
