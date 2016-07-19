@@ -1,14 +1,14 @@
 MEET Friends Lab 2: Building the Flask backend for viewing friends
 ------------------------------------------------------------------
 
-Start by downloading the following, which will create a folder `y2-meet-friends` on your desktop:
+Start by downloading the following, which will create a folder `y2-meet-friends-lab2` on your desktop:
 
 ```
 cd ~/Desktop
-git clone https://github.com/meet-projects/y2-meet-friends.git
+git clone https://github.com/meet-projects/y2-meet-friends-lab2.git
 ```
 
-Inside folder `y2-meet-friends`, create another folder called `templates`, and move the four HTML files from your completed [MEET Friends Lab 1](https://github.com/meet-projects/y2-meet-friends-templates) into `templates`.
+Inside folder `y2-meet-friends-lab2`, create another folder called `templates`, and move the four HTML files from your completed [MEET Friends Lab 1](https://github.com/meet-projects/y2-meet-friends-lab1) into `templates`.
 
 If you have not set up Python using the commands below, please do so now:
 
@@ -31,7 +31,7 @@ In `templates/view_my_friends.html`, notice that we've actually omitted somethin
 
 #### Exercise 2
 
-In the same terminal that you have setup Python using the commands above, go to the folder `y2-meet-friends` and execute the command `python web_app.py`. This should run without error. Leave this continuously running (it's a server!).
+In the same terminal that you have setup Python using the commands above, go to the folder `y2-meet-friends-lab2` and execute the command `python web_app.py`. This should run without error. Leave this continuously running (it's a server!).
 
 Now open your browser and go to `http://127.0.0.1:5000/` (this is the default URL for where Flask runs your web app) and you should see the content that is in `view_my_friends.html` (but notice how `view_my_friends.html` doesn't appear anywhere in the URL!). Similarly, if you go to `http://127.0.0.1:5000/add` in your browser, you should see the content that is in `add_friend.html`.
 
