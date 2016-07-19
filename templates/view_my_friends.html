@@ -2,36 +2,42 @@
 <html>
 <body>
 
-<div class="header">
-MEET Friends
+<div class="container">
+
+<div class="page-header">
+<h1>MEET Friends</h1>
 </div>
 
-<div class="content">
-
-<table border="1">
-<tr>
-  <th>Name</th>
-  <th>Gender</th>
-  <th>Nationality</th>
-  <th>Hometown</th>
-  <th></th>
-</tr>
-<tr>
-  <td>{{ friend.name }}</td>
-  <td>{{ friend.gender }}</td>
-  <td>{{ friend.nationality }}</td>
-  <td>{{ friend.hometown }} </td>
-  <td><a href="BROKEN-LINK-FIX-ME">Edit</a>
-</tr>
+<table class="table">
+<thead>
+  <tr>
+    <th>Name</th>
+    <th>Gender</th>
+    <th>Nationality</th>
+    <th>Hometown</th>
+    <th></th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>{{ friend.name }}</td>
+    <td>{{ friend.gender }}</td>
+    <td>{{ friend.nationality }}</td>
+    <td>{{ friend.hometown }} </td>
+    <td><a href="BROKEN-LINK-FIX-ME" class="btn btn-info" role="button">Edit</a>
+  </tr>
+</tbody>
 </table>
 
-<a href="BROKEN-LINK-FIX-ME">Add friend</a>
+<a href="BROKEN-LINK-FIX-ME" class="btn btn-info" role="button">Add friend</a>
 
 </div>
 
-<div class="footer">
-Y2 2015
+<footer class="footer">
+<div class="container">
+<p class="text-muted text-footer-custom">Y2 Flask Intro</p>
 </div>
+</footer>
 
 </body>
 </html>

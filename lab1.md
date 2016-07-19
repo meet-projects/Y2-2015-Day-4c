@@ -18,7 +18,7 @@ cd ~/Desktop
 git clone https://github.com/meet-projects/y2-meet-friends.git
 ```
 
-The above command will create a folder `y2-meet-friends` that appears on the desktop. Within that folder, there will be many files. For this lab, the only files that you need to look at are `lab1.md`, and the four HTML files inside the folder `templates`.
+The above command will create a folder `y2-meet-friends` that appears on the desktop. Within that folder, there will be many files. For this lab, the only files that you need to look at are `lab1.md` (which is *this* document you're reading right now!) and the four HTML files inside the folder `templates`.
 
 #### Exercise 1
 
@@ -32,7 +32,7 @@ In `add_friend.html`, we've created a form but there's nothing inside. Please ad
 #### Exercise 2
 
 Switch who is typing at the keyboard. In `edit_friend.html`, there is again an incomplete form that you need to add inputs to. Add the same inputs as for `add_friend.html`. However, this time, we'll need to make some minor edits:
-* For the name text field, make the default text say "{{ friend.name }}".
-* For the nationality text field, make the default text say "{{ friend.nationality }}".
-* For the hometown text field, make the default text say "{{ friend.hometown }}".
+* For the name text field, make the default text say `"{{ friend.name }}"`.
+* For the nationality text field, make the default text say `"{{ friend.nationality }}"`.
+* For the hometown text field, make the default text say `"{{ friend.hometown }}"`.
 Later on, we'll see that these will automatically get filled out by the friend's name, nationality, and hometown! We'll worry about how to automatically select the radio button corresponding to the friend's gender later.
