@@ -32,7 +32,9 @@ In `add_friend.html`, we've created a form but there's nothing inside. Please ad
 #### Exercise 2
 
 Switch who is typing at the keyboard. In `edit_friend.html`, there is again an incomplete form that you need to add inputs to. Add the same inputs as for `add_friend.html`. However, this time, we'll need to make some minor edits:
+
 * For the name text field, make the default text say `"{{ friend.name }}"` using the HTML attribute `value` (do *not* use the HTML attribute `placeholder`).
 * For the nationality text field, make the default text say `"{{ friend.nationality }}"` (again, use the HTML attribute `value`).
 * For the hometown text field, make the default text say `"{{ friend.hometown }}"` (again, use the HTML attribute `value`).
+
 Later on, we'll see that these will automatically get filled out by the friend's name, nationality, and hometown! We'll worry about how to automatically select the radio button corresponding to the friend's gender later.
