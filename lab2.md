@@ -6,7 +6,6 @@ MEET Friends Lab 2: Building the Flask backend for viewing friends
 If you have not set up Python using the commands below, please do so now:
 
 ```
-exec bash
 wget http://tinyurl.com/MEETpythonY2
 source MEETpythonY2
 ```
@@ -14,7 +13,6 @@ source MEETpythonY2
 If you have already run the code above but you've opened a new terminal window, please run:
 
 ```
-exec bash
 source ~/y2-venv/bin/activate
 ```
 
