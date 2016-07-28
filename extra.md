@@ -5,7 +5,7 @@ MEET Friends Extra for Experts
 
 #### Exercise 1
 
-Make the forms in your MEET Friends app use CSS and Bootstrap. Keep in mind ideas we had mentioned regarding user interface design.
+Make the forms in your MEET Friends app use Bootstrap. Add any other CSS/Bootstrap elements of your choice. Keep in mind ideas we had mentioned regarding user interface design.
 
 #### Exercise 2
 
