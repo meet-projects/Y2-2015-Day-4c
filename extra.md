@@ -1,7 +1,7 @@
 MEET Friends Extra for Experts
 ------------------------------
 
-**Important:** Welcome to Extra for Experts. This part is meant for people who have successfully completed and fully understand the previous labs for MEET Friends. We will prioritize helping students who have *not* yet finished the previous labs. Also, some of the exercises below *intentionally* go beyond the material that we have done lectures for: it is up to you to search on the internet for what you need to know to solve the exercise.
+**Important:** Welcome to Extra for Experts. This part is meant for people who have successfully completed and fully understand the previous labs for MEET Friends. We will prioritize helping students who have *not* yet finished the previous labs. Also, some of the exercises below *intentionally* go beyond the material that we have lectures for. It is up to you to search on the internet to figure out how to solve these exercises.
 
 #### Exercise 1
 
