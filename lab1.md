@@ -22,7 +22,7 @@ The above command will create a folder `y2-meet-friends` that appears on the des
 
 #### Exercise 1
 
-In `add_friend.html`, we've created a form but there's nothing inside. Please add the following input fields:
+In `add_friend.html`, we've created a form but there's nothing inside. Please add the following input fields inside the form:
 * A text field, with `name="name"`, to enter the friend's name.
 * Three radio buttons, all with `name="gender"`, that have the values `"female"`, `"male"`, and `"other"`.
 * A text field, with `name="nationality"` to enter the friend's nationality.

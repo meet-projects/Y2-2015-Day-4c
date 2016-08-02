@@ -33,7 +33,9 @@ def delete_friend(person_id):
     return render_template('delete_friend.html', friend=friend)
 ```
 
-Where it says "BROKEN-ROUTE-FOR-YOU-TO-FIX", please change the route so that "/edit/5/" goes to page for editing a friend with `person_id=5`, and "/delete/2/" goes to the page for deleting a friend with `person_id=2`, etc.
+Where it says "BROKEN-ROUTE-FOR-YOU-TO-FIX", please change the route so that "/edit/5/" goes to page for editing a friend with `person_id=5`, and "/delete/2/" goes to the page for deleting a friend with `person_id=2`, etc. Your code should work for any id, not just 2 or 5!
+
+Check your work by going to http://127.0.0.1:5000/edit/4/. Does it load the right information?
 
 #### Exercise 2
 
